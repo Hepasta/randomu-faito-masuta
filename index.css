@@ -1,0 +1,59 @@
+html{
+    background-color: #55423D;
+    margin-top: 5vh;
+}
+.partyId{
+    background-color: #FFF3EC;
+    border-radius: 25px;
+    border-color: #271C19;
+    border-width: 3px;
+    border-style: solid;
+    height: 35px;
+    width: 36em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    color: #271C19;
+    outline: none;
+}
+
+#line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5VH;
+    width: 90VW;
+    background-image: url("src/line.png");
+    background-repeat: repeat-x;
+    background-size: 40%;
+}
+
+div > img{
+    margin-top: 5VH;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 10em;
+    display: inline-block;
+}
+
+#pi, #fe, #ci{opacity: 25%;transition-duration: 1.5s;}
+#pi, #fe{ margin-top: 15VH; }
+#pi{ transform: rotate(-20deg); }
+#fe{ transform: rotate(20deg); }
+
+.card{
+    margin-top: 10VH;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 12em;
+    width: 40em;
+    background-color: #FFF3EC;
+    border-radius: 25px;
+}
